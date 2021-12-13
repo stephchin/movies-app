@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application requires the following to be installed:
+* ruby/rails
+* postgres
+* yarn
+* node
 
-Things you may want to cover:
+The following environment varialbles must be set in your .env to run the application:
+* MOVIES_DB_API_KEY
 
-* Ruby version
+Steps to run the application:
+```
+cp example.env .env
+# update the api key in your .env
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bundle install
+yarn install
+rails start
+```
