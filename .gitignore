@@ -35,4 +35,9 @@
 yarn-debug.log*
 .yarn-integrity
 
+# Ignore database files
+db/schema.rb
+db/structure.sql
+
+# Ignore env file
 .env
